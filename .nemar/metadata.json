@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Assessing sensitivity to semantic and syntactic information in deaf readers: An ERP\nstudy",
-  "description": "This dataset contains EEG/ERP data from an experiment examining sensitivity to semantic and syntactic violations in deaf readers. Participants read sentences presented word-by-word (RSVP) that contained subject-verb agreement violations, semantic violations, combined violations, word-order violations, or correct control sentences, while EEG was recorded. The study aims to characterize how deaf readers process linguistic anomalies at the neural level.",
-  "methods_description": "Participants sat in a darkened, sound-attenuated room viewing an LCD monitor at 60 inches distance, using a keyboard for responses and a headset for verbal responses. They were presented with 180 sentences (30 subject-verb agreement violations, 30 semantic violations, 30 double violations, 30 word-order violations, 60 control sentences) in an RSVP design, one word at a time, each displayed for 600ms with a 200ms inter-stimulus interval, while EEG was recorded.",
+  "description": "This dataset contains EEG recordings from deaf readers who read sentences containing semantic and syntactic violations, used to assess sensitivity to semantic and syntactic information during reading. Event-related potentials were recorded while participants viewed 180 sentences presented word by word, including subject-verb agreement, semantic, double, and word-order violations alongside correct control sentences.",
+  "methods_description": "Data were collected at the NeuroCognition Laboratory in San Diego. Participants sat in a darkened, sound-attenuated room and viewed sentences on an LCD monitor. Sentences were presented in an RSVP design, one word at a time for 600 ms with a 200 ms ISI. There were 180 sentences: 30 each of subject-verb agreement, semantic, double, and word-order violations, plus 60 correct controls. Participants responded with a keyboard, and verbal responses were recorded through a headset.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,10 +20,7 @@
       "term": "EEG"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "event-related potentials"
     },
     {
       "term": "Deafness",
@@ -36,15 +33,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     },
     {
-      "term": "syntax"
-    },
-    {
       "term": "Semantics",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D012660"
     },
     {
-      "term": "psycholinguistics"
+      "term": "syntax"
+    },
+    {
+      "term": "sentence processing"
     }
   ],
   "related_identifiers": [
@@ -56,7 +53,7 @@
     {
       "identifier": "10.1016/j.neuropsychologia.2025.109171",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.18112/openneuro.ds005296.v1.0.1",
@@ -74,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "9.2 GB (127 files)"
+    "8.52 GB (127 files)"
   ],
   "formats": [
     ".fdt",
